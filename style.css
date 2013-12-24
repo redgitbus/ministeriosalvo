@@ -1,0 +1,292 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+* {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+  	-webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+  	-webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+ 	-webkit-tap-highlight-color: transparent; /* For some Androids */ 	
+  	-webkit-user-select: none; 
+    -webkit-overflow-scrolling:touch;
+}
+body {
+    /*
+        padding:20px;
+        margin:20px;
+        font-family: 'Lato', sans-serif;
+        font-family: 'Lobster', cursive;
+        font-family: 'Oswald', sans-serif;
+    */
+}
+
+.bgParallax {
+	color:#FFF;
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	position: relative;
+	min-height: 100%;
+	background-position: 50% 0;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+.titulo-pages {
+    font-family: 'Oswald', sans-serif !important;
+    font-size:110px;
+}
+
+#back001 {
+    background: url("imagens/back001.jpg") center center;
+    background-size:cover;
+    width:100%;
+    height:1035px;
+    
+}
+
+#back002 {
+    background: url("imagens/back002.jpg") center center;
+   
+    width:100%;
+    height:1035px;
+    
+    -webkit-box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow:    0px 13px 19px rgba(0, 0, 0, 0.5);
+    box-shadow:         0px 13px 19px rgba(0, 0, 0, 0.5);
+    position:relative;
+    z-index:999999;
+}
+
+#back003 { 
+    background-image: url("imagens/back003.jpg"); 
+    background-size: 100%; 
+    height:1035px; 
+    padding-bottom:40px;
+    
+}
+
+#back004 { 
+    background-image: url("imagens/back004.jpg"); 
+    width: 100%; 
+    height:1035px; 
+    padding-bottom:40px;
+    -webkit-box-shadow: 0px 6px 30px rgba(0, 0, 0, 1);
+    -moz-box-shadow:    0px 6px 30px rgba(0, 0, 0, 1);
+    box-shadow:         0px 6px 30px rgba(0, 0, 0, 1);
+    position:relative;
+    z-index:999999;
+    
+}
+
+#back005 { 
+    background-image: url("imagens/back005.jpg"); 
+    width: 100%; 
+    height:1035px; 
+    padding-bottom:40px;
+  
+        
+}
+
+#back006 { 
+    background-image: url("imagens/back006.jpg"); 
+    width: 100%; 
+    height:1035px; 
+    padding-bottom:40px;
+    -webkit-box-shadow: 0px 6px 30px rgba(0, 0, 0, 1);
+    -moz-box-shadow:    0px 6px 30px rgba(0, 0, 0, 1);
+    box-shadow:         0px 6px 30px rgba(0, 0, 0, 1);
+    position:relative;
+    z-index:999999;
+}
+
+#back007 { 
+    background-image: url("imagens/back007.jpg"); 
+    width: 100%; 
+    height:1035px; 
+    padding-bottom:40px;
+    
+}
+
+
+.logomarca {
+    margin:0px auto;
+    padding:20px;
+}
+    /* QUANDO FOR SMARTPHONE WIDE E PHONE  */
+    @media (max-width: 480px) { 
+        .logomarca {
+            position:relative;
+            top:50px;
+            padding:20px;
+        }
+    }
+
+.navbar-default {
+    background: rgba(0,0,0,0.5) !important;
+    border: 1px solid #fff !important;
+    font-family: 'Oswald', sans-serif !important;
+    color:#fff !important;
+    text-transform:uppercase;
+    width:920px;
+    margin:0px auto;
+    
+}
+
+.navbar-nav > li > a {
+    color: #fff !important;
+    font-size: 22px;
+}
+
+.navbar-brand {
+    display:none;
+}
+
+    /* QUANDO FOR SMARTPHONE WIDE E PHONE  */
+    @media (max-width: 480px) { 
+        .navbar-default {
+            background: rgba(255,255,255,0.9) !important;
+            border: #fff !important;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+            position:relative;
+            top:80px;
+            width:100%;
+        }   
+        .navbar-brand {
+            display:block;
+        }
+        .navbar-nav > li > a {
+            color: #000 !important;
+            font-size:16px;
+        }
+    }
+
+.nav-tabs > li > a {
+    color: #fff;
+    font-family: 'Oswald', sans-serif !important;
+    font-size:32px;
+    border-radius:10%;
+    border: none !important;
+}
+
+.nav-tabs > li > a:hover {
+    background:#ffcc00;
+}
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    border-radius: 10%;  
+    background:#ffcc00;
+    color:#fff;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+.agenda {
+    width:940px;
+    margin:0 auto;
+    max-width:100%;
+}
+.img-border {
+    border:4px solid #fff;
+}
+
+    @media (max-width: 480px) { 
+        .nav-tabs {
+            padding:10px;
+            text-align:center;
+        }
+        .centered {
+            text-align:center;
+        }   
+    }
+
+
+
+
+.div-scroll {
+    font-size: 40px;  
+    background : #fff; 
+    color : #000; 
+    padding : 4px; 
+    width : 600px; 
+    height : 200px; 
+    overflow : auto; 
+}
+
+.padding {
+    margin-top:150px;
+}
+
+.quem-somos {
+    margin-top:350px;
+    color:#666;
+    font-size:18px;
+    text-align:justify;
+    font-family: 'Lato', sans-serif;
+    line-height:22px;
+}
+
+.quem-somos-right {
+    margin-top:350px;
+    font-size:26px;
+    text-align:justify;
+    font-family: 'Lato', sans-serif;
+}
+.agenda {
+    height:150px;
+    background:#000;
+    border-radius:10px;
+    margin-bottom:10px;
+}
+    .agenda-titulo {
+        font-size:110px;
+        font-family: 'Oswald', sans-serif;
+        color:#000;
+        text-transform:uppercase;
+    }
+    .agenda-data {
+        font-size:90px;
+        line-height:150px;
+        color:#f1c40f;
+        font-family: 'Oswald', sans-serif;
+        text-align:center;
+    }
+    .agenda-desc {
+        font-size:14px;
+        font-family: 'Oswald', sans-serif;
+        color:#fff;
+        text-transform:uppercase;
+    }
+.scrollup { width: 40px; height: 40px; text-indent: -9999px; z-index:999999; opacity: 0.8; position: fixed; bottom: 50px; right: 100px; display: none; background: url("http://gazpo.com/downloads/tutorials/jquery/scrolltop/icon_top.png") no-repeat; }
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.multmidia-titulo {
+    font-family: 'Lobster', cursive;
+    font-size:150px;
+    color:#f1c40f;
+}
+
+.discografia-descricao {
+    font-size:18px;
+    text-align:justify;
+    line-height:20px;
+}
+
+.discografia-titulo {
+    font-family: 'Lobster', cursive;
+    font-size:48px;
+    color:#fff;
+}
+
+.fixar  {
+    position:fixed;
+}
+
+/******classe estática em seu modelo inicial******/ .nav-total { height:60px; background: url(img/bg-nav.jpg) repeat-x; } /******classe que será adicionada fazendo flutuar o menu depois que o usuário rolar a página******/ .f-nav { z-index: 99999999; position: fixed; top: 0 !important; width:100%; border-radius:0px; background:rgba(0,0,0,0.8) !important; border-bottom:5px solid #f1c40f !important; border-top: none !important; border-right: none !important; border-left: none !important; margin: 0 auto; }
+
+
+
